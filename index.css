@@ -117,7 +117,7 @@ body{
     width: 350px;
     height: 350px;
     background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 245px;
     rotate: 45deg;
     border-radius: 20px;
@@ -161,13 +161,12 @@ body{
   }
 
 
-  .home .profession-container{
+  /* .home .profession-container{
     position: absolute;
     top: 0;
     right: 0;
     width: 768px;
     height: 768px;
-    /* background-color: red; */
     overflow: hidden;
   }
 
@@ -181,7 +180,7 @@ body{
     border-left: 384px solid transparent;
     border-bottom: 384px solid #754ef9;
     border-right: 384px solid #754ef9;
-  }
+  } */
 
 
   .intro-text-b{
@@ -212,17 +211,17 @@ body{
 
 
 .profile-photo-des{
-    background-color: red;
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  margin-left: 300px;
+  margin-top: 245px;
+  rotate: 45deg;
+  border-radius: 20px;
 }
 
 .profile-photo-des img{
-    position: absolute;
-    /* bottom: 0; */
-    margin-top: 18%;
-    right: 0;
-    margin-right: 18%;
-    width: 15%;
-    pointer-events: none;
+    width: 50%;
 }
 
 
