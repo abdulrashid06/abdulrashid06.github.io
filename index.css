@@ -1,0 +1,282 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Suwannaphum&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+  background-color: #FFFDE7;
+}
+
+:root{
+    --primary-color: #fff;
+    --secondary-color: #333;
+    --main-color: #754ef9;
+}
+/* 
+body{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    overflow: hidden;
+    font-family: 'Suwannaphum', serif;
+    height: 500vh;
+    scroll-behavior: auto;
+} */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 7%;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    margin-right: auto;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 45px;
+}
+
+.navbar > a:hover{
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+
+.download{
+    background-color: rgb(246, 246, 148);
+    padding: 5px 0px;
+    border-radius: 10px;
+    
+}
+
+.download i{
+    margin-left: 27px;
+}
+
+.download  a,i {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+.download  a:hover{
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+
+
+/* body, html {
+    overflow: hidden;
+    height: 100%;
+    background-image: linear-gradient(135deg, #efd5ff, #515ada);
+    position: relative;
+    z-index: 1;
+      
+    &:before {
+      content: '';
+      width: 80%;
+      height: 100%;
+      background: #131313;
+      position: absolute;
+      left: 50%;
+      transform: skewX(-40deg) translateX(-50%);
+    }
+  } */
+
+
+  
+  .home-content{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    margin-left: 200px;
+    margin-top: 245px;
+    rotate: 45deg;
+    border-radius: 20px;
+  }
+
+  .home-content:hover{
+    border:  solid #000851;
+  }
+ 
+
+  .hi img{
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 40%;
+    rotate: -45deg;
+  }
+
+
+  #horizontal-line{
+    margin-bottom: 0px;
+    margin-left: -16px;
+    margin-right: 37px;
+    margin-top: -25px;
+    rotate: -45deg;
+
+  }
+
+
+
+  .home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .home-content > p{
+    text-align: center;
+    color: white;
+    rotate: -45deg;
+  }
+
+
+  .home .profession-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 768px;
+    height: 768px;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+
+  .profession-container .profession-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 95%;
+    border-top: 384px solid #754ef9;
+    border-left: 384px solid transparent;
+    border-bottom: 384px solid #754ef9;
+    border-right: 384px solid #754ef9;
+  }
+
+
+  .intro-text-b{
+     margin-left: 12%;
+    font-size: 35px;
+    font-family: 'Carter One', cursive;
+  }
+
+  .intro-text-c{
+    margin-left: 25%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+ }
+
+
+/* .profile-photo-des{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    border-top: 384px solid #754ef9;
+    border-left: 384px solid transparent;
+    border-bottom: 384px solid #754ef9;
+    border-right: 384px solid #754ef9;
+} */
+
+
+.profile-photo-des{
+    background-color: red;
+}
+
+.profile-photo-des img{
+    position: absolute;
+    /* bottom: 0; */
+    margin-top: 18%;
+    right: 0;
+    margin-right: 18%;
+    width: 15%;
+    pointer-events: none;
+}
+
+
+
+
+.card-about-me{
+  width: 30%;
+  height: 410px;
+  margin: auto;
+  margin-top: 100px;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  border-radius: 242px;
+}
+
+
+.inner-card{
+  width: 95%;
+  height: 410px;
+  text-align: center;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  border-radius: 242px;
+  padding: 63px;
+  color: white;
+}
+
+.inner-card  > h3{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+hr{
+  margin-bottom: 13px;
+}
+
+.inner-card  > p{
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+.inner-card > .contact > div{
+  margin-bottom: 6px;
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
