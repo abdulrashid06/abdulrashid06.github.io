@@ -1,4 +1,4 @@
-GitHubCalendar(".calendar", "Monazir7866", {
+GitHubCalendar(".calendar", "abdulrashid06", {
     responsive: true,
     tooltips: true
 });
