@@ -2,651 +2,549 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./style.css">
-   <link rel="stylesheet" href="./responsive.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="./images/ar_logo_favicon.jpg" rel="shortcut icon" type="image/x-icon">
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
-      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
-   <link rel="stylesheet" href="./github-calendar-gh-pages/dist/github-calendar-responsive.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
 
-   <title>Abdul Rashid</title>
+  <link rel="stylesheet" href="/index.css">
+  <link rel="shortcut icon" href="./images/ar_logo_favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="shortcut icon" type="image/png"
+    href="images/c-alphabet-letter-logo-for-business-and-company-with-wings-and-black-and-white-grey-color-corporate-brading-and-lettering-icon-with-simple-design-vector.webp">
+  <script src="https://kit.fontawesome.com/6f3f4b23f1.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-   <div class="fixed-navbar fixed">
-      <header id="header" class="wpo-header-style-1">
-         <div class="wpo-site-header">
-            <nav class="navigation navbar navbar-expand-lg ">
-               <div class="container mobile-small">
-                  <div class="row align-items-center">
-                     <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
-                        <div>
-                           <div class="mobileMenu ">
-                              <div class="menu-close">
-                                 <div class="clox"><i class="fa-solid fa-xmark"></i></div>
-                              </div>
-                              <ul class="responsivemenu">
-                                 <ul class="MuiList-root MuiList-padding"><a class="active" href="#static-hero">Home</a>
-                                 </ul>
-                                 <ul class="MuiList-root MuiList-padding"><a href="#about-section">About</a></ul>
-                                 <ul class="MuiList-root MuiList-padding"><a href="#skills">Skills</a></ul>
-                                 <ul class="MuiList-root MuiList-padding"><a href="#portfolio">Projects</a></ul>
-                                 <ul class="MuiList-root MuiList-padding"><a href="#github-stats">My Stats</a></ul>
-                                 <ul class="MuiList-root MuiList-padding"><a href="#contact-section">Contact</a></ul>
-                              </ul>
-                           </div>
-                           <div class="showmenu">
-                              <button type="button" class="navbar-toggler open-btn"><i class="fa-solid fa-bars"></i>
-                              </button>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-2 col-md-6 col-6">
-                        <div class="navbar-header"><a class="navbar-brand site-logo" href="#static-hero"><img
-                                 src="./images/ar_logo (1).jpg" alt="" width="60px"><span>Abdul.</span></a></div>
-                     </div>
-                     <div class="col-lg-8 col-md-1 col-1">
-                        <div id="navbar" class="collapse navbar-collapse navigation-holder">
-                           <ul class="nav navbar-nav mb-2 mb-lg-0">
-                              <li><a href="#static-hero" class="active">Home</a></li>
-                              <li><a href="#about-section">About</a></li>
-                              <li><a href="#skills">Skills</a></li>
-                              <li><a href="#portfolio">Projects</a></li>
-                              <li><a href="#github-stats">My Stats</a></li>
-                              <li><a href="#contact-section">Contact</a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="col-lg-2 col-md-2 col-2">
-                        <div class="header-right">
-                           <div class="header-btn">
-                              <a class="theme-btn resume-btn" download="Abdul-Rashid-Resume-1.pdf"
-                                 href="Abdul-Rashid-Resume-1.pdf"
-                                 onclick="window.open('https://drive.google.com/file/d/12OuXx-vO7aqq1Bj1kuTGBOw5o7GJnNRB/view?usp=sharing')">
-                                 Resume
-                                 <i class="fa-sharp fa-solid fa-arrow-down"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </nav>
-         </div>
-      </header>
-   </div>
 
-   <section class="static-hero" id="static-hero">
-      <div class="hero-container">
-         <div class="hero-inner">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-xl-6 col-lg-6 col-12">
-                     <div class="wpo-static-hero-inner">
-                        <div data-swiper-parallax="300" class="slide-title" id="user-detail-name">
-                           <h2><span>Hello,</span>I am Abdul Rashid.</h2>
-                        </div>
-                        <div data-swiper-parallax="300" class="slide-sub-title">
-                           <h5>Java Backend Developer</h5>
-                        </div>
-                        <!-- <div data-swiper-parallax="400" class="slide-text">
-                           <p>An Aspiring JAVA Back-end Developer, strong in design and integration with intuitive
-                              problem-solving skills. I have ability to translate business requirements into technical
-                              solutions.</p>
-                        </div> -->
-                        <div class="clearfix"></div>
-                        <div class="slide-btn"><a href="#contact-section" class="theme-btn">Hire Me<i
-                                 class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+
+
+  <!-- header design    Feh<span>mida </span> -->
+  <header id="nav-menu">
+    <div class="logo">
+      <img src="./images/ar_logo (1).jpg" alt="">
+      <p><a href="#">Abdul.</a></p>
+    </div>
+
+    <ul class="navlist">
+      <li><a href="#home" class="active"> Home</a></li>
+      <li><a href="#about"> About</a></li>
+      <li><a href="#skills"> Skills</a></li>
+      <li><a href="#projects"> Projects</a></li>
+      <!-- <li><a href="#githubs" ></a> Statistics</a></li> -->
+      <li><a href="#contact"> Contact</a></li>
+
+      <li>
+        <!-- <button id="resume-button-1" class="nav-link resume"
+          onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
+          <a id="resume-link-1" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
+        </button> -->
+      </li>
+
+    </ul>
+
+    <div id="resume">
+      <button id="resume-button-1" class="nav-link resume"
+        onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
+        <a id="resume-link-1" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
+      </button>
+    </div>
+
+    <div class="bx bx-menu" id="menu-icon">
+    </div>
+  </header>
+
+
+
+  <!-- home section design -->
+  <section id="home">
+    <!-- <div class="flex-home"> -->
+
+    <div id="nav-link-home" class="nav-link home">
+
+      <div class="text-1" style="font-size: 50px; font-weight: 700; color: yellow;">Hello,</div>
+      <div id="user-detail-name" style="font-size: 42px;">
+        <h2>I AM
+          Abdul <br>Rashid </h2>
       </div>
-      <div class="static-hero-right">
-         <div class="static-hero-img">
-            <div class="static-hero-img-inner"><img
-                  src="https://fahisayub.github.io/static/media/hi.595c27e01407f4e94ce4.png" alt="">
-               <div class="icon-1 floating-item"><img src="image/icons8-java.svg" alt=""></div>
-               <div class="icon-2 floating-item"><img src="image/icons8-javascript.svg" alt=""></div>
-               <div class="icon-3 floating-item"><img src="image/icons8-css3.svg" alt="">
-               </div>
-               <div class="project floating-item">
-                  <div class="icon"><i class="fa-regular fa-circle-check"></i></div>
-                  <div class="p-text">
-                     <h3><span data-count="1500">3</span>+</h3>
-                     <p>Complete Project</p>
-                  </div>
-               </div>
-            </div>
-         </div>
+      <div class="text-3" style="font-size: 40px; color: red;"><span class="typing"
+          style="font-size: 40px; color: red;"></span></h2>
       </div>
-   </section>
-
-
-   <!-- <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-      <div class="container">
-         <div class="row d-flex">
-            <div class="col-md-6 col-lg-5 d-flex">
-               <div class="img-about img d-flex align-items-stretch">
-                  <div class="overlay"></div>
-                  <div class="img d-flex align-self-stretch align-items-center"
-                     style="background-image:url(images/profile.jpg);">
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-               <div class="row justify-content-start pb-3">
-                  <div class="col-md-12 heading-section ftco-animate">
-                     <h1 class="big">About</h1>
-                     <h2 class="mb-4">About Me</h2>
-                     <p style="margin-top: 10%;">An Aspiring JAVA Back-end Developer, strong in design and integration
-                        with intuitive problem-solving skills.
-                        I have ability to translate business requirements into technical solutions.</p>
-                     <ul class="about-info mt-4 px-md-0 px-2">
-                        <li class="d-flex"><span>Name:</span> <span>Suraj Kumar</span></li>
-                        <li class="d-flex"><span>Date of birth:</span> <span>May,01,2003</span></li>
-                        <li class="d-flex"><span>Address:</span> <span>Bihar, Patna</span></li>
-                        <li class="d-flex"><span>Pin code:</span> <span>800027</span></li>
-
-                        <li class="d-flex"><span>Phone: </span> <span>+91-9525378279</span></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="counter-wrap ftco-animate d-flex mt-md-3">
-                  <div class="text">
-                     <p class="mb-4">
-                        <span class="number" data-number="3">3</span>
-                        <span>Project complete</span>
-                     </p>
-                     <p><a href="https://drive.google.com/file/d/1jzNOnGToEkbZHKYvrWwDvv5sV3Y1BhhQ/view?usp=sharing"
-                           target="_blank" class="btn btn-primary py-3 px-3">Resume</a></p>
-                  </div>
-               </div>
-            </div>
-         </div>
+      <br><br>
+      <div>
+        <button id="resume-button-2" class="nav-link resume"
+          onclick="window.open('https://drive.google.com/file/d/12OuXx-vO7aqq1Bj1kuTGBOw5o7GJnNRB/view?usp=sharing')">
+          <a id="resume-link-2" href="/Abdul-Rashid-Resume-1.pdf" download>Resume</a>
+        </button>
       </div>
-   </section> -->
+    </div>
 
-
-
-   <section class="ftco-section resume-section pb-4 ftco-about img ftco-section" id="about section">
-      <div class="container">
-         <div class="row justify-content-center pt-5 pb-5">
-            <div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
-               <h1 class="big big-2">About me</h1>
-               <h2 class="mb-4">About me</h2>
-               <!-- <p>Keep your dreams alive. Understand to achieve anything requires faith and belief in yourself, vision,
-                  hard work,
-                  determination, and dedication. Remember all things are possible for those who believe.</p> -->
-            </div>
-         </div>
-         <div class="row d-flex">
-            <div class="col-md-6 col-lg-5 d-flex">
-               <div class="img-about img d-flex align-items-stretch">
-                  <div class="overlay"></div>
-                  <div class="img d-flex align-self-stretch align-items-center home-img"
-                     style="background-image:url(images/profile.jpg);" id="">
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-6 col-lg-7 pl-lg-5 pb-5" id="user-detail-intro">
-               <div class="row justify-content-start pb-3">
-                  <div class="col-md-12 heading-section ftco-animate" >
-                     <!-- <h1 class="big">About</h1> -->
-                     <!-- <h2 class="mb-4">About Me</h2> -->
-                     <p style="margin-top: 10%;">An Aspiring JAVA Back-end Developer, strong in design and integration
-                        with intuitive problem-solving skills.
-                        I have ability to translate business requirements into technical solutions.</p>
-                     <ul class="about-info mt-4 px-md-0 px-2">
-                        <li class="d-flex"><span>Name:</span> <span>Abdul Rashid</span></li>
-                        <li class="d-flex"><span>Date of birth:</span> <span>November,06,2000</span></li>
-                        <li class="d-flex"><span>Address:</span> <span>Jharkhand, Hazaribagh</span></li>
-                        <li class="d-flex"><span>Pin code:</span> <span>825312</span></li>
-
-                        <li class="d-flex"><span>Phone: </span> <span>+91-8340592769</span></li>
-                     </ul>
-                  </div>
-               </div>
-              
-            </div>
-         </div>
-         <div class="row justify-content-center mt-5" id="Resume">
-            <div class="col-md-6 text-center ftco-animate fadeInUp ftco-animated">
-               <button class="btn btn-primary">
-                  <p> <a href="Abdul-Rashid-Resume-1.pdf" download="Abdul-Rashid-Resume-1.pdf">Resume<i
-                           class=" fa-sharp fa-solid fa-arrow-down"></i></a></p>
-
-               </button>
-            </div>
-         </div>
+    <div class="static-hero-right">
+      <div class="static-hero-img">
+        <div class="static-hero-img-inner"><img
+            src="https://fahisayub.github.io/static/media/hi.595c27e01407f4e94ce4.png" alt="">
+          <!-- <div class="icon-1 floating-item"><img src="image/icons8-java.svg" alt=""></div>
+              <div class="icon-2 floating-item"><img src="image/icons8-javascript.svg" alt=""></div>
+              <div class="icon-3 floating-item"><img src="image/icons8-css3.svg" alt=""> -->
+        </div>
+        <!-- <div class="project floating-item">
+                 <div class="icon"><i class="fa-regular fa-circle-check"></i></div>
+                 <div class="p-text">
+                    <h3><span data-count="1500">3</span>+</h3>
+                    <p>Complete Project</p>
+                 </div>
+              </div> -->
       </div>
-   </section>
+    </div>
+    </div>
+
+    <!-- </div> -->
+
+  </section>
 
 
-   <div class="wpo-about-area section-padding" id="skills">
-      <div class="container">
-         <div class="row align-items-center">
-            <div class="col-lg-5 col-md-12 col-sm-12">
-               <div class="row wpo-about">
-                  <div class="col-lg-12 col-md-6 col-sm-6 ">
-                     <div class="wpo-about-exprience-wrap">
-                        <div class="wpo-about-exprience">
-                           <h2>1200+</h2><span>Hours of Coding</span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-12 col-md-6 col-sm-6">
-                     <div class="wpo-about-exprience-wrap">
-                        <div class="wpo-about-exprience">
-                           <h2>1000+</h2><span>Hours of DSA</span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-6 offset-lg-1 col-md-12 col-sm-12">
-               <div class="wpo-about-content">
-                  <div class="wpo-about-title">
-                     <h2>My Skills</h2>
-                     <!-- <p>I’ve discovered my passion for the world of web development and the beauty behind building
-                        useful websites like the one
-                        you will find in this portfolio. I’m now looking for a junior dev position to finally kick start
-                        my career and learn
-                        among professionals.</p> -->
-                  </div>
 
-                  <div class="wpo-about-funfact">
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><i class="fa-brands fa-html5"></i></h3>
-                           <p>HTML</p>
-                        </div>
-                     </div>
+  <!-- --------about section design  ------->
+  <section class="about section" id="about">
 
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><i class="fa-brands fa-css3-alt"></i></h3>
-                           <p>CSS</p>
-                        </div>
-                     </div>
+    <h2 style="font-size: 50px;">About Me</h2>
+    <div class="about-me">
 
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><i class="fa-brands fa-js"></i></h3>
-                           <p>JavaScript</p>
-                        </div>
-                     </div>
-
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><i class="fa-brands fa-java"></i></h3>
-                           <p>Java</p>
-                        </div>
-                     </div>
-
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><img src="./image/file5671607802446826209_1427109326211_spring-icon.png" alt=""
-                                 width="40px"></h3>
-                           <p>Spring Boot</p>
-                        </div>
-                     </div>
-
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><img src="./image/springboot-white.svg" alt="" width="40px"></i></h3>
-                           <p>Spring Boot</p>
-                        </div>
-                     </div>
-
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><img src="./image/hibernate-icon.svg" alt="" width="40px"></h3>
-                           <p>Hibernate</p>
-                        </div>
-                     </div>
-                     <div class="grid">
-                        <div class="grid-inner">
-                           <h3><img src="./image/icons8-mysql-logo-48.png" alt="" width="40px"></h3>
-                           <p>Mysql</p>
-                        </div>
-                     </div>
-
-
-                  </div>
-               </div>
-            </div>
-         </div>
+      <div class="about-img">
+        <img class="home-img" src="./image/profile.jpg" alt="">
       </div>
-   </div>
+
+      <div class="nav-link about">
+        <!-- <h2 style="font-size: 50px;">About <span>Me</span></h2> -->
+        <!-- <br> -->
+        <!-- <br> -->
 
 
-   <section class="wpo-blog-section portfolio section-padding" id="projects">
-      <div class="container">
-         <div class="row justify-content-center pt-5 pb-5">
-            <div class="col-md-10 heading-section text-center ftco-animate fadeInUp ftco-animated">
-               <h1 class="big big-2">Projects</h1>
-               <h2 class="mb-4">Projects</h2>
-               <!-- <p>Project management is like juggling three balls – time, cost and quality. Program management is like a
-                  troupe of circus
-                  performers standing in a circle, each juggling three balls and swapping balls from time to time.</p> -->
-            </div>
-         </div>
-         <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 pb-2 pt-2 portfolio-item filter-app project-card">
-               <div class="portfolio-wrap"> <img src="./images/Anthropologir_outlook.png" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                     <h4 class="project-title">Anthropologie Clone</h4>
-                     <p class="project-tech-stack">HTML | CSS | JS</p>
-                     <div class="portfolio-links">
-                        <a target="_blank" href="https://github.com/abdulrashid06/mere-coast-376"
-                           class="portfolio-lightbox project-github-link">
-                           <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a target="_blank" href="https://lucky-beijinho-3574d4.netlify.app/" class="project-deployed-link"><i
-                              class="fa-solid fa-link"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="project-description ">
-                  <p>
-                     Anthroplogie is an E-commerce store. Which deals in women fashion clothing, accessories and home
-                     furniture.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 pb-2 pt-2 portfolio-item filter-web project-card">
-               <div class="portfolio-wrap"> <img src="./images/daily_objects_outlook.jpeg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                     <h4 class="project-title">Clone of Daily Objects</h4>
-                     <p class="project-tech-stack">HTML | CSS | JS</p>
-                     <div class="portfolio-links">
-                        <a target="_blank" href="https://github.com/abdulrashid06/Daily-Objects"
-                           class="portfolio-lightbox project-github-link" title="Web 3">
-                           <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a target="_blank" href="https://gorgeous-bunny-1780ec.netlify.app/index.html"
-                           class="portfolio-details-lightbox project-deployed-link">
-                           <i class="fa-solid fa-link"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="project-description">
-                  <p>
-                     Daily Objects is a E-commerce company which sells
-                     designed and customized accessories.
-                  </p>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 pb-2 pt-2 portfolio-item filter-card project-card">
-               <div class="portfolio-wrap"> <img src="./images/student_registeration.png" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                     <h4 class="project-title">Outlook India</h4>
-                     <p class="project-tech-stack">HTML | CSS | JS</p>
-                     <div class="portfolio-links"> <a target="_blank"
-                           href="https://github.com/Rohit6789/-humble-offer-6148"><i
-                              class="fa-brands fa-github project-github-link"></i>
-                           </a> 
-                           <a target="_blank"
-                           href="https://polite-cannoli-bfad9b.netlify.app/" class="portfolio-details-lightbox project-deployed-link"><i
-                              class="fa-solid fa-link"></i></a></div>
-                  </div>
-               </div>
-               <div class="project-description">
-                  This project is a console based project which is all about the process of the registration system of
-                  college or institute is working.
-               </div>
-            </div>
+        <p id="user-detail-intro" style="font-size:20px ;">An Aspiring JAVA Back-end Developer, strong in design and
+          integration
+          with intuitive problem-solving skills.
+          I have ability to translate business requirements into technical solutions.</p>
+        <br>
 
-            <!-- <div class="portfolio-wrap"> <img src="https://bootstrapmade.com/demo/templates/Personal/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                     <h4>Card 1</h4>
-                     <p>Card</p>
-                     <div class="portfolio-links"> <a href="https://bootstrapmade.com/demo/templates/Personal/assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                           class="portfolio-lightbox" title="Card 1"><i class="fa-brands fa-github"></i></a> <a
-                           href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
-                           class="portfolio-details-lightbox" title="Portfolio Details"><i class="fa-solid fa-link"></i></a></div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 pb-2 pt-2 portfolio-item filter-card">
-               <div class="portfolio-wrap"> <img src="https://bootstrapmade.com/demo/templates/Personal/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                     <h4>Card 3</h4>
-                     <p>Card</p>
-                     <div class="portfolio-links"> <a href="https://bootstrapmade.com/demo/templates/Personal/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                           class="portfolio-lightbox" title="Card 3"><i class="fa-brands fa-github"></i></a> <a
-                           href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
-                           class="portfolio-details-lightbox" title="Portfolio Details"><i class="fa-solid fa-link"></i></a></div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-lg-4 col-md-6 pb-2 pt-2 portfolio-item filter-web">
-               <div class="portfolio-wrap"> <img src="https://bootstrapmade.com/demo/templates/Personal/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                  <div class="portfolio-info">
-                     <h4>Web 3</h4>
-                     <p>Web</p>
-                     <div class="portfolio-links"> <a href="https://bootstrapmade.com/demo/templates/Personal/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                           class="portfolio-lightbox" title="Web 3"><i class="fa-brands fa-github"></i></a> <a
-                           href="#" data-gallery="portfolioDetailsGallery" data-glightbox="type: external"
-                           class="portfolio-details-lightbox" title="Portfolio Details"><i class="fa-solid fa-link"></i></a></div>
-                  </div>
-               </div>
-            </div> -->
-            <!-- </div> -->
-            <div class="mt-5" style="text-align: center">
-               <!-- <h3>Github - Calendar</h3> -->
-            </div>
-         </div>
+        <ul class="about-info mt-4 px-md-0 px-2">
+          <li class="d-flex"><span>Name:</span> <span>Abdul Rashid</span></li>
+          <li class="d-flex"><span>Date of birth:</span> <span>November,06,2000</span></li>
+          <li class="d-flex"><span>Address:</span> <span>Jharkhand, Hazaribagh</span></li>
+          <li class="d-flex"><span>Pin code:</span> <span>825312</span></li>
 
-         <!-- <div class="calendar container github mt-4">
-
-         </div> -->
-      </div>
-   </section>
-
-
-
-   <section class="ftco-section contact-section ftco-no-pb" id="github-stats">
-      <div class="container ">
-         <div class="row justify-content-center mb-5 pb-3 mb-sm-5">
-            <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
-
-               <h2 class="mb-4">Github Calander</h2>
-               <h1 class="big big-2">Github</h1>
-
-            </div>
-         </div>
-         <div class="github-images">
-            <img
-               src="https://camo.githubusercontent.com/f9b221cd7f7e8f75e485d54c1a44374b2504712d1d2d3cb8052ae235bf8a3dcd/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d616264756c7261736869643036267468656d653d7261646963616c26686964655f626f726465723d66616c736526696e636c7564655f616c6c5f636f6d6d6974733d7472756526636f756e745f707269766174653d74727565"
-               alt="suraj-996-github-stats" />
-            <img
-               src="https://camo.githubusercontent.com/f20d9c31813bea7a8087455c6320e602b1c47cced3e34a596b71fd48565a0322/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d616264756c7261736869643036267468656d653d7261646963616c26686964655f626f726465723d66616c7365"
-               alt="suraj-996-github-current-streak-stats" />
-         </div>
-
-         <div class="calendar container github mt-4">
-
-         </div>
+          <li class="d-flex"><span>Phone: </span> <span>+91-8340592769</span></li>
+        </ul>
 
       </div>
-   </section>
+    </div>
 
-   <section class="ftco-section contact-section ftco-no-pb" id="contact">
-      <div class="container ">
-         <div class="row justify-content-center mb-5 pb-3 mb-sm-5">
-            <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
 
-               <h2 class="mb-4">Contact Me</h2>
-               <h1 class="big big-2">Contact</h1>
-               <p>Have a question or want to work together?</p>
-            </div>
-         </div>
 
-         <div class="row d-flex contact-info mb-5 ">
+  </section>
 
-         </div>
-         <div class="row wpo-wpo-contact-form-map">
-            <div class="co-lg-10  col-12">
-               <div class="row">
-                  <div class="col col-lg-6 col-md-12 col-12">
-                     <div class="wpo-contact-form">
-                        <h2>Get In Touch</h2>
-                        <form class="contact-validation-active">
-                           <div class="row">
-                              <div class="col col-lg-12 col-12">
-                                 <div class="form-field"><input type="text" name="name" placeholder="Your Name"
-                                       value=""></div>
-                              </div>
-                              <div class="col col-lg-12 col-12">
-                                 <div class="form-field"><input type="email" name="email" placeholder="Your Email"
-                                       value="">
-                                 </div>
-                              </div>
-                              <div class="col col-lg-12 col-12">
-                                 <div class="form-field"><input type="phone" name="phone" placeholder="Your phone"
-                                       value="">
-                                 </div>
-                              </div>
-                              <div class="col col-lg-12 col-12"><textarea type="text" name="message"
-                                    placeholder="Message"></textarea></div>
-                           </div>
-                           <div class="submit-area"><button type="submit" class="theme-btn">Submit Now</button></div>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col col-lg-6 col-md-12 col-12">
-                     <div class="row">
-                        <div class="col-md-4 col-lg-6 col-4 d-flex ftco-animate fadeInUp ftco-animated" id="contact-linkedin">
-                           <div class="align-self-stretch box p-4 text-center">
-                              <a href="https://www.linkedin.com/in/abdul-rashid-8184901aa/" target="_blank">
-                                 <div class="icon d-flex align-items-center justify-content-center">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                 </div>
-                                 <h3 class="mb-4">Linkedin</h3>
-                              </a>
-                           </div>
-                        </div>
-                        <div class="col-md-4 col-lg-6 col-4 d-flex ftco-animate fadeInUp ftco-animated" id="contact-phone">
-                           <div class="align-self-stretch box p-4 text-center">
-                              <a href="tel:+918340592769">
-                                 <div class="icon d-flex align-items-center justify-content-center">
-                                    <i class="fa-solid fa-phone"></i>
-                                 </div>
-                                 <h3 class="mb-4">Mobile</h3>
-                              </a>
-                           </div>
-                        </div>
-                        <!-- </div>
-                     <div class="row"> -->
-                        <div class="col-md-4 col-lg-6 col-4 d-flex ftco-animate fadeInUp ftco-animated" id="contact-email">
-                           <div class="align-self-stretch box p-4 text-center">
-                              <a href="mailto:abdulrashid987655@gmail.com">
-                                 <div class="icon d-flex align-items-center justify-content-center email-icon">
-                                    <i class="fa-solid fa-envelope"></i>
-                                 </div>
-                                 <h3 class="mb-4">Email</h3>
-                              </a>
-                           </div>
-                        </div>
-                        <div class="col-md-4 col-lg-6 col-4 d-flex ftco-animate fadeInUp ftco-animated" id="contact-github">
-                           <div class="align-self-stretch box p-4 text-center">
-                              <a href="https://github.com/abdulrashid06" target="_blank">
-                                 <div class="icon d-flex align-items-center justify-content-center">
-                                    <i class="fa-brands fa-github"></i>
-                                 </div>
-                                 <h3 class="mb-4">Github</h3>
-                              </a>
-                           </div>
-                        </div>
-                        <!-- </div>
-                     <div class="row"> -->
-                        <div class="col-md-4 col-lg-6 col-4 d-flex ftco-animate fadeInUp ftco-animated">
-                           <div class="align-self-stretch box p-4 text-center">
-                              <a href="https://twitter.com/" target="_blank">
-                                 <div class="icon d-flex align-items-center justify-content-center email-icon">
-                                    <i class="fa-brands fa-twitter"></i>
-                                 </div>
-                                 <h3 class="mb-4">Twitter</h3>
-                              </a>
-                           </div>
-                        </div>
-                        <div class="col-md-4 col-lg-6 col-4 d-flex ftco-animate fadeInUp ftco-animated">
-                           <div class="align-self-stretch box p-4 text-center">
-                              <a href="https://www.instagram.com/" target="_blank">
-                                 <div class="icon d-flex align-items-center justify-content-center">
-                                    <i class="fa-brands fa-instagram"></i>
-                                 </div>
-                                 <h3 class="mb-4">Instagram</h3>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+
+
+  <!-- --------Skills section design  -->
+  <section id="skills">
+    <div class="main-text">
+      <h2><span>My </span>Skills</h2>
+
+      <br>
+      <h3> -I am Expert In-</h3>
+    </div>
+    <div class="nav-link skills" id="skill-deco">
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(231, 152, 6) ;font-size: 100px;" class='bx bxl-java'></i>
+          <!-- <img src="./image/icons8-java.svg" alt=""> -->
+
+        </div>
+        <h3 class="skills-card-name">Java</h3>
 
       </div>
-   </section>
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(48, 153, 19) ;font-size: 100px;" class='bx bxl-spring-boot'></i>
+          <!-- <img src="./image/springboot-white.svg" alt=""> -->
+        </div>
+        <h3 class="skills-card-name">Spring boot</h3>
 
-   <footer id="footer" class="section bg-dark text-white">
-      <div class="container">
-         <div class="row justify-content-center">
-            <div class=" col-lg-6 social-icons text-center">
-               <div>
-                  <ul class="social">
-                     <li><a target="_blank" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></i></a>
-                     </li>
-                     <li><a target="_blank" href="https://www.linkedin.com/in/abdul-rashid-8184901aa/"><i
-                              class="fa-brands fa-linkedin-in"></i></a></li>
-                     <li><a target="_blank" href="https://github.com/abdulrashid06"><i
-                              class="fa-brands fa-github"></i></a></li>
-                  </ul>
-               </div>
-            </div>
-            <div class="col-lg-6 wow fadeInUp" style="visibility: visible;">
-               <p class="mb-0 text-center text-lg-end">Designed by <a class="fw-600" href="#">Abdul Rashid</a></p>
-            </div>
-         </div>
       </div>
-   </footer>
+      <div class="skills-card">
+        <div class="skills-card-img">
+
+
+          <img style="width: 55%;" src="/image/hibernate-icon.svg" alt="">
+        </div>
+        <h3 class="skills-card-name">Hibernate</h3>
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+
+          <img style="width: 55%;" src="/images/maven.jpg" alt="">
+        </div>
+        <h3 class="skills-card-name">Maven</h3>
+      </div>
+
+
+
+
+
+
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(231, 152, 6) ;font-size: 100px;" class='bx bxl-javascript'></i>
+        </div>
+        <h3 class="skills-card-name">JavaScript</h3>
+
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:orangered ;font-size: 100px;" class='bx bxl-html5'></i>
+        </div>
+        <h3 class="skills-card-name">HTML</h3>
+
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(6, 17, 231) ;font-size: 100px;" class='bx bxl-css3'></i>
+        </div>
+        <h3 class="skills-card-name">CSS</h3>
+
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(34, 34, 188) ;font-size: 100px;" class='bx bx-sushi'></i>
+        </div>
+        <h3 class="skills-card-name">MySql</h3>
+
+      </div>
+
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(64, 128, 200) ;font-size: 100px;" class="fas fa-database"></i>
+        </div>
+        <h3 class="skills-card-name">RDBMS</h3>
+
+      </div>
+
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(231, 6, 6) ;font-size: 100px;" class="fa-solid fa-cubes"></i>
+        </div>
+        <h3 class="skills-card-name">DSA</h3>
+      </div>
+
+
+
+
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <img style="width: 55%;" src="/images/sts.jpg" alt="">
+
+        </div>
+        <h3 class="skills-card-name">STS</h3>
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+
+          <i style="color:rgb(21, 167, 230) ;font-size: 100px;" class="bx bxl-visual-studio"></i>
+        </div>
+        <h3 class="skills-card-name">VS Code</h3>
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+
+          <i style="color:rgb(6, 100, 231) ;font-size: 100px;" class="bx bxl-netlify"></i>
+        </div>
+        <h3 class="skills-card-name">Netlify</h3>
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <img style="width: 55%;" src="/images/eclipsepng.png" alt="">
+
+        </div>
+        <h3 class="skills-card-name">Eclipse</h3>
+      </div>
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <img style="width: 55%;" src="/images/intellige.jpg" alt="">
+
+        </div>
+        <h3 class="skills-card-name">Intellige</h3>
+      </div>
+
+      <div class="skills-card">
+        <div class="skills-card-img">
+          <i style="color:rgb(181, 185, 202) ;font-size: 100px;" class='bx bxl-github'></i>
+
+        </div>
+        <h3 class="skills-card-name">GitHub</h3>
+      </div>
+
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <section id="gitStats">
+    <!-- <----------STATS------->
+    <div class="max-width" id="githubs">
+      <div class="main-text">
+
+        <h2><span>GitHub </span>Statistics</h2>
+
+      </div>
+      <div id="stat">
+        <div>
+          <img class="ht1" id="github-stats-card"
+            src='https://camo.githubusercontent.com/f9b221cd7f7e8f75e485d54c1a44374b2504712d1d2d3cb8052ae235bf8a3dcd/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d616264756c7261736869643036267468656d653d7261646963616c26686964655f626f726465723d66616c736526696e636c7564655f616c6c5f636f6d6d6974733d7472756526636f756e745f707269766174653d74727565'>
+        </div>
+        <div>
+          <img class="ht1" id="github-streak-stats" src='./image/git-2.svg'>
+        </div>
+        <div>
+          <img class="ht1" id="github-top-langs"
+            src='https://camo.githubusercontent.com/a96d57eb123e543f6c12fc29f68c06db9fa784c5c719b8a9d8bcbfdd175d2599/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d616264756c7261736869643036267468656d653d7261646963616c26686964655f626f726465723d66616c736526696e636c7564655f616c6c5f636f6d6d6974733d7472756526636f756e745f707269766174653d74727565266c61796f75743d636f6d70616374'>
+        </div>
+      </div>
+
+
+      <div>
+        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+        <div class="calendar container github mt-4">
+
+        </div>
+
+        <script>
+          GitHubCalendar(".calendar", "abdulrashid06");
+          // or enable responsive functionality
+          GitHubCalendar(".calendar", "abdulrashid06", { responsive: true });
+        </script>
+      </div>
+
+
+
+
+    </div>
+  </section>
+  <!-- All project cards have an image, title, deployed link, repository link - 4 marks -->
+
+  <!-- Project section design  -->
+  <div id="projects">
+    <div class="container">
+
+      <br><br><br><br><br>
+      <div class="main-text">
+
+        <h2><span>Latest </span>Projects</h2>
+
+      </div>
+      <br><br>
+
+      <!-- <h2><span>Latest </span>Projects</h2> -->
+      <div class="nav-link projects" id="nav-link-projects">
+
+        <div class="project-card">
+          <img src="./images/daily_objects_outlook.jpeg" alt="" />
+          <br>
+          <h2 class="project-title">Daily Objects - Clone</h2>
+          <p class="project-description">
+            Daily Objects is a E-commerce company which sells designed and customized accessories.
+          </p>
+          <h4>A Collborative Project built by team of 5 members within 5 days.</h4>
+          <p class="project-tech-stack">
+            <b>Tech Stack: </b> HTML | CSS | Javascript
+          </p>
+          <div class="buttons">
+            <button>
+              <a class="project-github-link" target="_blank"
+                href="https://github.com/abdulrashid06/Daily-Objects">Code</a><i class="fa-brands fa-github"></i>
+            </button>
+            <button>
+              <a class="project-deployed-link" target="_blank" href="https://gorgeous-bunny-1780ec.netlify.app/index.html">Live</a><i
+                class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="project-card">
+          <img src="./images/Anthropologir_outlook.png" alt="" />
+          <br>
+          <h2 class="project-title">Anthropologie - Clone</h2>
+          <p class="project-description">
+            An E-commerce website for women's and house-holds item of new fashions and having many varities like bridal, wedding, dresses, home furniture etc.
+          </p>
+          <h4>An Indiviudal Project executed within 5 days.</h4>
+          <p class="project-tech-stack">
+            <b>Tech Stack: </b> Javascript | HTML | CSS
+          </p>
+          <div class="buttons">
+            <button>
+              <a class="project-github-link" target="_blank"
+                href="https://github.com/abdulrashid06/mere-coast-376">Code</a><i class="fa-brands fa-github"></i>
+            </button>
+            <button>
+              <a class="project-deployed-link" target="_blank" href="https://lucky-beijinho-3574d4.netlify.app/">Live</a><i
+                class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="project-card">
+          <img src="./images/student_registeration.png" alt="" />
+          <br>
+          <h2 class="project-title">Student Registration System</h2>
+          <p class="project-description">
+            This project is a console based project which is all about the process of the registration system of college or institute is working.
+          <!-- <ul>
+            <li>Features<ul>
+                <li>Register a crime</li>
+                <li>Add new Police Station</li>
+                <li>Get all past crime history</li>
+              </ul>
+            </li>
+          </ul> -->
+          </p>
+          <h4>An Indiviudal Project completed within 5 days.</h4>
+          <p class="project-tech-stack">
+            <b>Tech Stack: </b> Java | JDBC | MySQL
+          </p>
+          <div class="buttons">
+            <button>
+              <a class="project-github-link" target="_blank"
+                href="https://github.com/abdulrashid06/Student-Automated-Registration-System">Code</a><i class="fa-brands fa-github"></i>
+            </button>
+            <button>
+              <a class="project-deployed-link" target="_blank"
+                href="https://gorgeous-bunny-1780ec.netlify.app/index.html">Live</a><i
+                class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="project-card">
+          <img  src="./images/daily_objects_outlook.jpeg" alt="" />
+          <br>
+          <h2 class="project-title">Electricity Bill Payment System</h2>
+          <p class="project-description">
+            BILLPAY :- Electricity Bill Payment System (EBPS) is a software which is used to provide a payment service to consumers so that they pay all their pending bills comfortably from home.
+
+          </p>
+          <h4>A Collborative Project built by team of 4 members within 5 days.</h4>
+          <p class="project-tech-stack">
+            <b>Tech Stack: </b> Java | Hibernate | MySQL | Maven
+
+          </p>
+          <div class="buttons">
+            <button>
+              <a class="project-github-link" target="_blank"
+                href="https://github.com/abdulrashid06/Student-Automated-Registration-System">Code</a><i class="fa-brands fa-github"></i>
+            </button>
+            <button>
+              <a class="project-deployed-link" target="_blank"
+                href="https://gorgeous-bunny-1780ec.netlify.app/index.html">Live</a><i
+                class="fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+          </div>
+        </div>
+
+
+        
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- ---------contact section design--------- -->
+  <section class="nav-link contact" id="contact">
+    <div class="nav-link-contact">
+      <h2>Contact <span>Me!</span></h2>
+      <h4>"Stay hungry, stay foolish" - Steve Job, Founder of Apple </h4>
+      <p>Fill the form to connect if any query <i class="fas fa-smile"></i>
+      </p>
+      <div class="list">
+        <li><a href="#" id="contact-phone">+91-8340592769</a></li>
+        <li><a href="www.gmail.com" id="contact-email"> abdulrashid987655@gmail.com </a></li>
+        <li><a href="https://www.linkedin.com/in/ft-fehmida-shaikh-6308a719a/" id="contact-linkedin"> Linkedin : Abdul Rashid</a></li>
+        <!-- <li><a href="#">linkedin</a></li> -->
+      </div>
+      <div class="contact-icons">
+        <a href="https://www.linkedin.com/in/ft-fehmida-shaikh-6308a719a/ " target="_blank" id="contact-linkedin"><i
+            class='bx bxl-linkedin'></i></a>
+        <!-- <a href="https://www.youtube.com/channel/UCigoLzQqrPGcDH0eOQET9QA" target="_blank"><i
+            class='bx bxl-youtube'></i></a> -->
+        <a id="contact-github" href="https://github.com/abdulrashid06" target="_blank"><i class='bx bxl-github'></i></a>
+        <!-- <a href="#"><i class='bx bxl-e'></i></a> -->
+
+      </div>
+
+    </div>
+    <div class="contact-form">
+      <form action="">
+        <input type="name" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email Address" required>
+        <input type="" placeholder="Your Mobile Number" required>
+        <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+        <input type="submit" value="Send Message" class="submit" required>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- end section design-------->
+  <section class="end">
+    <div class="last-text">
+      <p> Created by Abdul Rashid with <i style="color: red;" class="fas fa-heart"></i> - All Rights Reserved 2023.
+      </p>
+    </div>
+    <div class="top">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+
+
+  </section>
+
+
+
+
+
+
+  <!-- custom js link -->
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
-<!-- <script src="jquery.min.js"></script> -->
-<script src="./github-calendar-gh-pages/dist/github-calendar.min.js"></script>
-<script src="app.js"></script>
-<script src="https://kit.fontawesome.com/00b3499e31.js" crossorigin="anonymous"></script>
-
-</script>
-<!-- <script>
-   GitHubCalendar(".calendar", "abdulrashid06");
-
-   // or enable responsive functionality:
-   GitHubCalendar(".calendar", "abdulrashid06", { responsive: true });
-
-   // Use a proxy
-   GitHubCalendar(".calendar", "abdulrashid06", {
-      proxy(username) {
-         return fetch(`https://your-proxy.com/github?user=${username}`)
-      }
-   }).then(r => r.text())
-</script> -->
-<script>
-   $(window).scroll(function () {
-      $('.fixed-navbar').toggleClass('scrolled', $(this).scrollTop() > 100);
-   });
-</script>
 
 </html>
+<script src="./index.js"></script>
+<script src="./github-calendar-gh-pages/dist/github-calendar.min.js"></script>
